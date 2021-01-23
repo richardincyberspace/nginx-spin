@@ -1,0 +1,13 @@
+{
+  "name": "docker_nodejs",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "Richard <richard@example.com>",
+  "main": "httpd.js",
+  "scripts": {
+    "start": "node httpd.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
