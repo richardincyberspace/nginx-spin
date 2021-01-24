@@ -3,7 +3,18 @@ const http = require('http');
 
 const requestListener = function(req, res) {
         res.writeHead(200);
-        res.end('Server BLUE\n ');
+var response = ` 
+<html>
+   <head>
+      <title>Backgorund Color</title>
+   </head>
+   <body style=\"background-color:green;\">
+      <p>Server Ready</p>
+   </body>
+</html> 
+		`;
+
+res.end(response);
 }
 
 
