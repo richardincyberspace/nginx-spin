@@ -17,7 +17,6 @@ var response = `
 res.end(response);
 }
 
-
 const server = http.createServer(requestListener);
 server.listen(8000);
 console.log(`Listening on port 8000 ...`);
