@@ -8,7 +8,7 @@ var response = `
    <head>
       <title>Backgorund Color</title>
    </head>
-   <body style=\"background-color:blue;\">
+   <body style=\"background-color:green;\">
       <p>Server Ready</p>
    </body>
 </html> 
